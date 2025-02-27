@@ -25,3 +25,9 @@ jobs:
         cd HolidayTravelVehicles 
         javac -d . *.java
       # Compile java file from directory
+
+    - name: Run Java Program
+      run: |
+        cd minicase/HolidayTravelVehicles
+        java Main
+
